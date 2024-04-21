@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo语法 on HakureiR-eimu&#39;s Blog</title>
+    <link>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/</link>
+    <description>Recent content in Hugo语法 on HakureiR-eimu&#39;s Blog</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分列</title>
+      <link>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/%E5%88%86%E5%88%97/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/%E5%88%86%E5%88%97/</guid>
+      <description>Astris ipse furtiva&#xD;#&#xD;Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies&#xA;Suis quot vota&#xD;#&#xD;Ea furtique risere fratres edidit terrae magis. Colla tam mihi tenebat: miseram excita suadent es pecudes iam. Concilio quam velatus posset ait quod nunc! Fragosis suae dextra geruntur functus vulgata.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/buttons/</guid>
+      <description>&#xD;Buttons&#xD;#&#xD;Buttons are styled links that can lead to local page or external link.&#xA;Example&#xD;#&#xD;{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}} Get Home&#xD;Contribute&#xD;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/hidden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/hidden/</guid>
+      <description>This page is hidden in menu&#xD;#&#xD;Quondam non pater est dignior ille Eurotas&#xD;#&#xD;Latent te facies&#xD;#&#xD;Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.&#xA;Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor Cum honorum Latona&#xD;#&#xD;O fallor in sustinui iussorum equidem.</description>
+    </item>
+  </channel>
+</rss>

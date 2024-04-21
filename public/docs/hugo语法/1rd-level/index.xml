@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HakureiR-eimu&#39;s Blog</title>
+    <link>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/1rd-level/</link>
+    <description>Recent content on HakureiR-eimu&#39;s Blog</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/1rd-level/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/1rd-level/2th-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/hugo%E8%AF%AD%E6%B3%95/1rd-level/2th-level/</guid>
+      <description>&#xD;2th Level of Menu&#xD;#&#xD;</description>
+    </item>
+  </channel>
+</rss>
