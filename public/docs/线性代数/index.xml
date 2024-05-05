@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HakureiR-eimu&#39;s Blog</title>
+    <link>https://example.org/docs/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</link>
+    <description>Recent content on HakureiR-eimu&#39;s Blog</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>zh-CN</language>
+    <atom:link href="https://example.org/docs/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
