@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>介绍 on HakureiR-eimu&#39;s Blog</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in 介绍 on HakureiR-eimu&#39;s Blog</description>
     <generator>Hugo 0.125.2</generator>
     <language>zh-CN</language>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一元积分计算</title>
-      <link>https://example.org/docs/%E5%BE%AE%E7%A7%AF%E5%88%86/%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</link>
+      <link>http://localhost:1313/docs/%E5%BE%AE%E7%A7%AF%E5%88%86/%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/%E5%BE%AE%E7%A7%AF%E5%88%86/%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</guid>
+      <guid>http://localhost:1313/docs/%E5%BE%AE%E7%A7%AF%E5%88%86/%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E8%AE%A1%E7%AE%97/</guid>
       <description>hello world</description>
+    </item>
+    <item>
+      <title>如何优雅地管理hugo博客的git仓库</title>
+      <link>http://localhost:1313/docs/%E5%8D%9A%E5%AE%A2/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E7%AE%A1%E7%90%86hugo%E5%8D%9A%E5%AE%A2%E7%9A%84git%E4%BB%93%E5%BA%93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/%E5%8D%9A%E5%AE%A2/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E7%AE%A1%E7%90%86hugo%E5%8D%9A%E5%AE%A2%E7%9A%84git%E4%BB%93%E5%BA%93/</guid>
+      <description>&#xD;关于git仓库&#xD;#&#xD;</description>
     </item>
   </channel>
 </rss>
