@@ -9,4 +9,10 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# 尝试插入图片
+## 尝试插入图片
+
+下面是图片
+
+![pic](pics/test.png)
+
+<img src="pics/test.png" width="50%" />
