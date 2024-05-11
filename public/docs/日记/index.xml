@@ -47,7 +47,14 @@
       <link>https://example.org/docs/%E6%97%A5%E8%AE%B0/2024_05_10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/docs/%E6%97%A5%E8%AE%B0/2024_05_10/</guid>
-      <description>begin&#xD;#&#xD;摆了&#xA;end&#xD;#&#xD;结束，摆了 @@ @@s@ S @</description>
+      <description>&#xD;begin&#xD;#&#xD;摆了&#xA;end&#xD;#&#xD;</description>
+    </item>
+    <item>
+      <title>2024 05 11</title>
+      <link>https://example.org/docs/%E6%97%A5%E8%AE%B0/2024_05_11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/docs/%E6%97%A5%E8%AE%B0/2024_05_11/</guid>
+      <description>&#xD;BEGIN&#xD;#&#xD;第十讲&#xD;#&#xD;</description>
     </item>
   </channel>
 </rss>
