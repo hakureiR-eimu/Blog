@@ -53,6 +53,10 @@
     {
       "title": "content",
       "path": "[[workspace]]/content"
+    },
+    {
+      "title": "博客",
+      "path": "[[workspace]]/content/docs/博客"
     }
   ],
   "frontMatter.git.enabled": true
