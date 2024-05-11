@@ -1,5 +1,5 @@
 ---
-title: "Hugo博客插入图片的方法"
+title: "优雅的Hugo博客"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,14 +8,16 @@ weight: 1
 # bookComments: false
 # bookSearchExclude: false
 ---
+## git仓库以及Github actions设置
 
-## 尝试插入图片
 
-下面是图片
-hello world
-@@
-nihao==<=
+## 插入图片
+
 
 ![pic](pics/test.png)
 
 <img src="pics/test.png" width="50%" />
+
+## 插入公式
+
+## 代码块以及代码高亮
