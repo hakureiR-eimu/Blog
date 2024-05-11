@@ -12,6 +12,9 @@ weight: 1
 ## 尝试插入图片
 
 下面是图片
+hello world
+@@
+nihao==<=
 
 ![pic](pics/test.png)
 
