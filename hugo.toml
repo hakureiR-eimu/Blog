@@ -3,3 +3,5 @@ languageCode = 'zh-CN'
 title = "HakureiR-eimu's Blog"
 
 theme = 'hugo-book'
+
+ignoreFiles = ["\\.pdf$"]
