@@ -23,3 +23,11 @@ weight: 1
 ## 代码块以及代码高亮
 
 ## 使用Front Matter
+
+## 如何避免pdf在hugo项目里的重复拷贝
+
+## 优雅地新建文章
+
+```
+使用hugo new -k替代hugo new
+```
