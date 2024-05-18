@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="git仓库以及Github actions设置#插入图片#插入公式#代码块以及代码高亮#使用Front Matter#">
+<meta name="description" content="git仓库以及Github actions设置#插入图片#插入公式#代码块以及代码高亮#使用Front Matter#如何避免pdf在hugo项目里的重复拷贝#优雅地新建文章#使用hugo new -k替代hugo new ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.org/docs/%E5%8D%9A%E5%AE%A2/%E4%BC%98%E9%9B%85%E7%9A%84hugo%E5%8D%9A%E5%AE%A2/">
   <meta property="og:site_name" content="HakureiR-eimu&#39;s Blog">
   <meta property="og:title" content="优雅的Hugo博客">
-  <meta property="og:description" content="git仓库以及Github actions设置#插入图片#插入公式#代码块以及代码高亮#使用Front Matter#">
+  <meta property="og:description" content="git仓库以及Github actions设置#插入图片#插入公式#代码块以及代码高亮#使用Front Matter#如何避免pdf在hugo项目里的重复拷贝#优雅地新建文章#使用hugo new -k替代hugo new ">
   <meta property="og:locale" content="zh-CN">
   <meta property="og:type" content="website">
 <title>优雅的Hugo博客 | HakureiR-eimu&#39;s Blog</title>
@@ -18,7 +18,7 @@
 <link rel="canonical" href="https://example.org/docs/%E5%8D%9A%E5%AE%A2/%E4%BC%98%E9%9B%85%E7%9A%84hugo%E5%8D%9A%E5%AE%A2/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.da2ba6a7f7d62fbb4ccef4c15e577a518d203abe97d630b2450d9252fd38598f.js" integrity="sha256-2iump/fWL7tMzvTBXld6UY0gOr6X1jCyRQ2SUv04WY8=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.97088fdcba15f650905c533fc4033ff94669ba7ed96d2c935b5dad5b73922e9f.js" integrity="sha256-lwiP3LoV9lCQXFM/xAM/&#43;UZpun7ZbSyTW12tW3OSLp8=" crossorigin="anonymous"></script>
 
   
 
@@ -154,6 +154,24 @@ https://github.com/alex-shpak/hugo-book
   
 
   
+    <a href="/docs/%E5%8D%9A%E5%AE%A2/scp%E5%91%BD%E4%BB%A4/" class="">Scp命令</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
     <a href="/docs/%E5%8D%9A%E5%AE%A2/spark%E8%B8%A9%E5%9D%91/" class="">Spark踩坑</a>
   
 
@@ -186,6 +204,24 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a href="/docs/%E5%8D%9A%E5%AE%A2/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E7%B3%BB%E7%BB%9F/" class="">大数据处理系统</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/%E5%8D%9A%E5%AE%A2/%E6%97%A5%E8%AE%B0/" class="">日记</a>
   
 
           
@@ -390,6 +426,19 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_18/" class="">2024 05 18</a>
+  
+
+        </li>
+      
+    
   </ul>
 
         </li>
@@ -470,6 +519,8 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#插入公式">插入公式</a></li>
     <li><a href="#代码块以及代码高亮">代码块以及代码高亮</a></li>
     <li><a href="#使用front-matter">使用Front Matter</a></li>
+    <li><a href="#如何避免pdf在hugo项目里的重复拷贝">如何避免pdf在hugo项目里的重复拷贝</a></li>
+    <li><a href="#优雅地新建文章">优雅地新建文章</a></li>
   </ul>
 </nav>
 
@@ -504,7 +555,16 @@ https://github.com/alex-shpak/hugo-book
   使用Front Matter
   <a class="anchor" href="#%e4%bd%bf%e7%94%a8front-matter">#</a>
 </h2>
-</article>
+<h2 id="如何避免pdf在hugo项目里的重复拷贝">
+  如何避免pdf在hugo项目里的重复拷贝
+  <a class="anchor" href="#%e5%a6%82%e4%bd%95%e9%81%bf%e5%85%8dpdf%e5%9c%a8hugo%e9%a1%b9%e7%9b%ae%e9%87%8c%e7%9a%84%e9%87%8d%e5%a4%8d%e6%8b%b7%e8%b4%9d">#</a>
+</h2>
+<h2 id="优雅地新建文章">
+  优雅地新建文章
+  <a class="anchor" href="#%e4%bc%98%e9%9b%85%e5%9c%b0%e6%96%b0%e5%bb%ba%e6%96%87%e7%ab%a0">#</a>
+</h2>
+<pre tabindex="0"><code>使用hugo new -k替代hugo new
+</code></pre></article>
  
       
 
@@ -550,6 +610,8 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#插入公式">插入公式</a></li>
     <li><a href="#代码块以及代码高亮">代码块以及代码高亮</a></li>
     <li><a href="#使用front-matter">使用Front Matter</a></li>
+    <li><a href="#如何避免pdf在hugo项目里的重复拷贝">如何避免pdf在hugo项目里的重复拷贝</a></li>
+    <li><a href="#优雅地新建文章">优雅地新建文章</a></li>
   </ul>
 </nav>
 
