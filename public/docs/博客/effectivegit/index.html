@@ -3,28 +3,36 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="begin#摆了
-end#">
+<meta name="description" content="Use git pull &ndash;rebase instead of git pull#Git commit semantic#人生苦短,请遵守规范
+提交细则#对于Git的提交日志，我们有非常明确而详细的提交规范。这将有助于我们在查看项目历史时，更容易明确每一次提交的内容。另一方面，我们还直接使用了Git提交日志来生成AngularJS的变更日志。
+修改类型#每个类型值都表示了不同的含义，类型值必须是以下的其中一个
+feat : 提交新功能 fix : 修复了bug docs : 只修改了文档 style : 修改代码格式，未修改代码逻辑 refactor : 代码重构，既没修复bug也没有添加新功能 perf : 性能优化，提高性能的代码更改 test : 添加或修改代码测试 chore : 对构建流程或辅助工具和依赖库(如文档生成等)的更改 代码回滚#代码回滚比较特殊，如果本次提交是为了恢复到之前的某个提交，那提交消息应该以“revert:”开头，后跟要恢复到的那个提交的标题。然后在消息正文中，应该写上“This reverts commit ”，其中“”是要还原的那个提交的SHA值。
+标题#标题是对变更的简明描述
+使用祈使句和现代时态 不要大写首字母 结尾不要使用句号 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.org/docs/%E6%97%A5%E8%AE%B0/2024_05_10/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.org/docs/%E5%8D%9A%E5%AE%A2/effectivegit/">
   <meta property="og:site_name" content="HakureiR-eimu&#39;s Blog">
-  <meta property="og:title" content="2024 05 10">
-  <meta property="og:description" content="begin#摆了
-end#">
+  <meta property="og:title" content="Effective Git">
+  <meta property="og:description" content="Use git pull &amp;ndash;rebase instead of git pull#Git commit semantic#人生苦短,请遵守规范
+提交细则#对于Git的提交日志，我们有非常明确而详细的提交规范。这将有助于我们在查看项目历史时，更容易明确每一次提交的内容。另一方面，我们还直接使用了Git提交日志来生成AngularJS的变更日志。
+修改类型#每个类型值都表示了不同的含义，类型值必须是以下的其中一个
+feat : 提交新功能 fix : 修复了bug docs : 只修改了文档 style : 修改代码格式，未修改代码逻辑 refactor : 代码重构，既没修复bug也没有添加新功能 perf : 性能优化，提高性能的代码更改 test : 添加或修改代码测试 chore : 对构建流程或辅助工具和依赖库(如文档生成等)的更改 代码回滚#代码回滚比较特殊，如果本次提交是为了恢复到之前的某个提交，那提交消息应该以“revert:”开头，后跟要恢复到的那个提交的标题。然后在消息正文中，应该写上“This reverts commit ”，其中“”是要还原的那个提交的SHA值。
+标题#标题是对变更的简明描述
+使用祈使句和现代时态 不要大写首字母 结尾不要使用句号 ">
   <meta property="og:locale" content="zh-CN">
-  <meta property="og:type" content="article">
-  <meta property="article:section" content="docs">
-<title>2024 05 10 | HakureiR-eimu&#39;s Blog</title>
+  <meta property="og:type" content="website">
+<title>Effective Git | HakureiR-eimu&#39;s Blog</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="canonical" href="https://example.org/docs/%E6%97%A5%E8%AE%B0/2024_05_10/">
+<link rel="canonical" href="https://example.org/docs/%E5%8D%9A%E5%AE%A2/effectivegit/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
   <script defer src="/en.search.min.b13ef6f56e23929f2ffc147730be41605fcff316bf7aa29b7832436f8acca445.js" integrity="sha256-sT729W4jkp8v/BR3ML5BYF/P8xa/eqKbeDJDb4rMpEU=" crossorigin="anonymous"></script>
 
   
 
+<link rel="alternate" type="application/rss+xml" href="https://example.org/docs/%E5%8D%9A%E5%AE%A2/effectivegit/index.xml" title="HakureiR-eimu's Blog" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -156,7 +164,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/%E5%8D%9A%E5%AE%A2/effectivegit/" class="">Effective Git</a>
+    <a href="/docs/%E5%8D%9A%E5%AE%A2/effectivegit/" class="active">Effective Git</a>
   
 
           
@@ -360,7 +368,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_10/" class="active">2024 05 10</a>
+    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_10/" class="">2024 05 10</a>
   
 
         </li>
@@ -518,7 +526,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>2024 05 10</strong>
+  <strong>Effective Git</strong>
 
   <label for="toc-control">
     
@@ -534,8 +542,15 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#begin">begin</a></li>
-    <li><a href="#end">end</a></li>
+    <li><a href="#use-git-pull---rebase-instead-of-git-pull">Use git pull &ndash;rebase instead of git pull</a></li>
+    <li><a href="#git-commit-semantic">Git commit semantic</a>
+      <ul>
+        <li><a href="#提交细则">提交细则</a></li>
+        <li><a href="#修改类型">修改类型</a></li>
+        <li><a href="#代码回滚">代码回滚</a></li>
+        <li><a href="#标题">标题</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -548,15 +563,50 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h2 id="begin">
-  begin
-  <a class="anchor" href="#begin">#</a>
+  <article class="markdown book-article"><h2 id="use-git-pull---rebase-instead-of-git-pull">
+  Use git pull &ndash;rebase instead of git pull
+  <a class="anchor" href="#use-git-pull---rebase-instead-of-git-pull">#</a>
 </h2>
-<p>摆了</p>
-<h2 id="end">
-  end
-  <a class="anchor" href="#end">#</a>
+<h2 id="git-commit-semantic">
+  Git commit semantic
+  <a class="anchor" href="#git-commit-semantic">#</a>
 </h2>
+<p>人生苦短,请遵守规范</p>
+<h3 id="提交细则">
+  提交细则
+  <a class="anchor" href="#%e6%8f%90%e4%ba%a4%e7%bb%86%e5%88%99">#</a>
+</h3>
+<p>对于Git的提交日志，我们有非常明确而详细的提交规范。这将有助于我们在查看<strong>项目历史</strong>时，更容易明确每一次提交的内容。另一方面，我们还直接使用了Git提交日志来生成<strong>AngularJS的变更日志</strong>。</p>
+<h3 id="修改类型">
+  修改类型
+  <a class="anchor" href="#%e4%bf%ae%e6%94%b9%e7%b1%bb%e5%9e%8b">#</a>
+</h3>
+<p>每个类型值都表示了不同的含义，类型值必须是以下的其中一个</p>
+<ul>
+<li><strong>feat</strong> : 提交新功能</li>
+<li><strong>fix</strong> : 修复了bug</li>
+<li><strong>docs</strong> : 只修改了文档</li>
+<li><strong>style</strong> : 修改代码格式，未修改代码逻辑</li>
+<li><strong>refactor</strong> : 代码重构，既没修复bug也没有添加新功能</li>
+<li><strong>perf</strong> : 性能优化，提高性能的代码更改</li>
+<li><strong>test</strong> : 添加或修改代码测试</li>
+<li><strong>chore</strong> : 对构建流程或辅助工具和依赖库(如文档生成等)的更改</li>
+</ul>
+<h3 id="代码回滚">
+  代码回滚
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81%e5%9b%9e%e6%bb%9a">#</a>
+</h3>
+<p>代码回滚比较特殊，如果本次提交是为了恢复到之前的某个提交，那提交消息应该以“revert:”开头，后跟要恢复到的那个提交的标题。然后在消息正文中，应该写上“This reverts commit <!-- raw HTML omitted -->”，其中“<!-- raw HTML omitted -->”是要还原的那个提交的SHA值。</p>
+<h3 id="标题">
+  标题
+  <a class="anchor" href="#%e6%a0%87%e9%a2%98">#</a>
+</h3>
+<p>标题是对变更的简明描述</p>
+<ul>
+<li>使用祈使句和现代时态</li>
+<li>不要大写首字母</li>
+<li>结尾不要使用句号</li>
+</ul>
 </article>
  
       
@@ -598,8 +648,15 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#begin">begin</a></li>
-    <li><a href="#end">end</a></li>
+    <li><a href="#use-git-pull---rebase-instead-of-git-pull">Use git pull &ndash;rebase instead of git pull</a></li>
+    <li><a href="#git-commit-semantic">Git commit semantic</a>
+      <ul>
+        <li><a href="#提交细则">提交细则</a></li>
+        <li><a href="#修改类型">修改类型</a></li>
+        <li><a href="#代码回滚">代码回滚</a></li>
+        <li><a href="#标题">标题</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
