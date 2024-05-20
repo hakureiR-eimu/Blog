@@ -1,4 +1,5 @@
----
+﻿---
+draft : true
 title: "日记"
 weight: 1
 bookFlatSection: true
