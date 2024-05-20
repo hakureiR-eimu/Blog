@@ -19,3 +19,14 @@ try {
 }catch{
     Write-Error $_.Exception.Message
 }
+
+$files = Get-ChildItem -Path $path -Filter "*.md" -Recurse
+
+foreach ($file in $files) {
+    $fileContent = Get-Content -Path $file.FullName
+    $newLint = "draft : true"
+    $fileContent = $fileContent[0], $newLine + $fileContent[1..($fileContent.Length - 1)]
+
+    Set-Content -Path $file.FullName -Value $fileContent
+    Write-Output "Set draft to false for file $file"
+}
