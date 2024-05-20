@@ -23,10 +23,13 @@ try {
 $files = Get-ChildItem -Path $path -Filter "*.md" -Recurse
 
 foreach ($file in $files) {
-    $fileContent = Get-Content -Path $file.FullName
-    $newLint = "draft : true"
-    $fileContent = $fileContent[0], $newLine + $fileContent[1..($fileContent.Length - 1)]
+    $fileContent = Get-Content -Path $file.FullName -Encoding utf8
+    $newLine = "draft : true"
 
-    Set-Content -Path $file.FullName -Value $fileContent
+    $newFileContent = @($fileContent[0])
+    $newFileContent += $newLine
+    $newFileContent += $fileContent[1..($fileContent.Length - 1)]
+
+    Set-Content -Path $file.FullName -Value $newFileContent -Encoding utf8
     Write-Output "Set draft to false for file $file"
 }
