@@ -42,3 +42,12 @@ weight: 1
 + 使用祈使句和现代时态
 + 不要大写首字母
 + 结尾不要使用句号
+
+## 如何拉取仓库并重命名
+例如，如果你想将远程仓库克隆到一个名为 new-repo-name 的目录中，可以这样做：
+
+```
+git clone https://github.com/username/old-repo-name.git new-repo-name
+```
+
+这将把远程仓库克隆到一个新的目录 new-repo-name 中。
