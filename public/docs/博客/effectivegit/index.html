@@ -3,23 +3,25 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Use git pull &ndash;rebase instead of git pull#Git commit semantic#人生苦短,请遵守规范
+<meta name="description" content="Use git pull &ndash;rebase instead of git pull#Git commit semantic#人生苦短,请遵守规范
 提交细则#对于Git的提交日志，我们有非常明确而详细的提交规范。这将有助于我们在查看项目历史时，更容易明确每一次提交的内容。另一方面，我们还直接使用了Git提交日志来生成AngularJS的变更日志。
 修改类型#每个类型值都表示了不同的含义，类型值必须是以下的其中一个
 feat : 提交新功能 fix : 修复了bug docs : 只修改了文档 style : 修改代码格式，未修改代码逻辑 refactor : 代码重构，既没修复bug也没有添加新功能 perf : 性能优化，提高性能的代码更改 test : 添加或修改代码测试 chore : 对构建流程或辅助工具和依赖库(如文档生成等)的更改 代码回滚#代码回滚比较特殊，如果本次提交是为了恢复到之前的某个提交，那提交消息应该以“revert:”开头，后跟要恢复到的那个提交的标题。然后在消息正文中，应该写上“This reverts commit ”，其中“”是要还原的那个提交的SHA值。
 标题#标题是对变更的简明描述
-使用祈使句和现代时态 不要大写首字母 结尾不要使用句号 ">
+使用祈使句和现代时态 不要大写首字母 结尾不要使用句号 如何拉取仓库并重命名#例如，如果你想将远程仓库克隆到一个名为 new-repo-name 的目录中，可以这样做：
+git clone https://github.com/username/old-repo-name.git new-repo-name 这将把远程仓库克隆到一个新的目录 new-repo-name 中。">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.org/docs/%E5%8D%9A%E5%AE%A2/effectivegit/">
   <meta property="og:site_name" content="HakureiR-eimu&#39;s Blog">
   <meta property="og:title" content="Effective Git">
-  <meta property="og:description" content="Use git pull &amp;ndash;rebase instead of git pull#Git commit semantic#人生苦短,请遵守规范
+  <meta property="og:description" content="Use git pull &amp;ndash;rebase instead of git pull#Git commit semantic#人生苦短,请遵守规范
 提交细则#对于Git的提交日志，我们有非常明确而详细的提交规范。这将有助于我们在查看项目历史时，更容易明确每一次提交的内容。另一方面，我们还直接使用了Git提交日志来生成AngularJS的变更日志。
 修改类型#每个类型值都表示了不同的含义，类型值必须是以下的其中一个
 feat : 提交新功能 fix : 修复了bug docs : 只修改了文档 style : 修改代码格式，未修改代码逻辑 refactor : 代码重构，既没修复bug也没有添加新功能 perf : 性能优化，提高性能的代码更改 test : 添加或修改代码测试 chore : 对构建流程或辅助工具和依赖库(如文档生成等)的更改 代码回滚#代码回滚比较特殊，如果本次提交是为了恢复到之前的某个提交，那提交消息应该以“revert:”开头，后跟要恢复到的那个提交的标题。然后在消息正文中，应该写上“This reverts commit ”，其中“”是要还原的那个提交的SHA值。
 标题#标题是对变更的简明描述
-使用祈使句和现代时态 不要大写首字母 结尾不要使用句号 ">
+使用祈使句和现代时态 不要大写首字母 结尾不要使用句号 如何拉取仓库并重命名#例如，如果你想将远程仓库克隆到一个名为 new-repo-name 的目录中，可以这样做：
+git clone https://github.com/username/old-repo-name.git new-repo-name 这将把远程仓库克隆到一个新的目录 new-repo-name 中。">
   <meta property="og:locale" content="zh-CN">
   <meta property="og:type" content="website">
 <title>Effective Git | HakureiR-eimu&#39;s Blog</title>
@@ -28,7 +30,7 @@ feat : 提交新功能 fix : 修复了bug docs : 只修改了文档 style : 修�
 <link rel="canonical" href="https://example.org/docs/%E5%8D%9A%E5%AE%A2/effectivegit/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.b13ef6f56e23929f2ffc147730be41605fcff316bf7aa29b7832436f8acca445.js" integrity="sha256-sT729W4jkp8v/BR3ML5BYF/P8xa/eqKbeDJDb4rMpEU=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.ae9275dca216695c998622744b64c9eb03e3e77dab7bdffa12eee943c7aec665.js" integrity="sha256-rpJ13KIWaVyZhiJ0S2TJ6wPj532re9/6Eu7pQ8euxmU=" crossorigin="anonymous"></script>
 
   
 
@@ -182,6 +184,24 @@ https://github.com/alex-shpak/hugo-book
   
 
   
+    <a href="/docs/%E5%8D%9A%E5%AE%A2/effectiveshell/" class="">Effective Shell</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
     <a href="/docs/%E5%8D%9A%E5%AE%A2/scp%E5%91%BD%E4%BB%A4/" class="">Scp命令</a>
   
 
@@ -284,188 +304,17 @@ https://github.com/alex-shpak/hugo-book
       
     
       
-        <li class="book-section-flat" >
+        <li>
           
   
   
 
   
-    <span>日记</span>
+    <a href="/docs/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/" class="">系统结构</a>
   
 
           
   <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_05/" class="">2024 05 05</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_06/" class="">2024 05 06</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_07/" class="">2024 05 07</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_08/" class="">2024 05 08</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_09/" class="">2024 05 09</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_10/" class="">2024 05 10</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_11/" class="">2024 05 11</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_12/" class="">2024 05 12</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_13/" class="">2024 05 13</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_14/" class="">2024 05 14</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_15/" class="">2024 05 15</a>
-  
-
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_17/" class="">2024 05 17</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/%E6%97%A5%E8%AE%B0/2024_05_18/" class="">2024 05 18</a>
-  
-
-        </li>
-      
     
   </ul>
 
@@ -551,6 +400,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#标题">标题</a></li>
       </ul>
     </li>
+    <li><a href="#如何拉取仓库并重命名">如何拉取仓库并重命名</a></li>
   </ul>
 </nav>
 
@@ -607,6 +457,13 @@ https://github.com/alex-shpak/hugo-book
 <li>不要大写首字母</li>
 <li>结尾不要使用句号</li>
 </ul>
+<h2 id="如何拉取仓库并重命名">
+  如何拉取仓库并重命名
+  <a class="anchor" href="#%e5%a6%82%e4%bd%95%e6%8b%89%e5%8f%96%e4%bb%93%e5%ba%93%e5%b9%b6%e9%87%8d%e5%91%bd%e5%90%8d">#</a>
+</h2>
+<p>例如，如果你想将远程仓库克隆到一个名为 new-repo-name 的目录中，可以这样做：</p>
+<pre tabindex="0"><code>git clone https://github.com/username/old-repo-name.git new-repo-name
+</code></pre><p>这将把远程仓库克隆到一个新的目录 new-repo-name 中。</p>
 </article>
  
       
@@ -657,6 +514,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#标题">标题</a></li>
       </ul>
     </li>
+    <li><a href="#如何拉取仓库并重命名">如何拉取仓库并重命名</a></li>
   </ul>
 </nav>
 
