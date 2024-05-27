@@ -66,3 +66,11 @@ $ CPI = \frac{时钟周期数}{IC} = CPI * \sum_{i=1}^n({\frac{IC_i}{IC}}) $
 每秒百万指令数
 
 ## 第三章
+
+### 单功能非线性流水线调度
+
+1. IF：Instruction Fetch取指
+2. ID：Instruction Decode解码
+3. EX：Excute 执行
+4. MEM：Memory Access 访存
+5. WB：Write Back 写回
