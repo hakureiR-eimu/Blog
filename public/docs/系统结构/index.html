@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="寄寄寄#第一章#Amadhl定律#加快某部件执行速度所能获得的系统性能加速比，受限于该部件的执行时间占系统中总执行时间 的百分比。
+<meta name="description" content="第一章#Amadhl定律#加快某部件执行速度所能获得的系统性能加速比，受限于该部件的执行时间占系统中总执行时间 的百分比。
 系统加速比：
 $ T(加速比) = \frac{系统性能(改进后) }{ 系统性能(改进前) } = \frac{总执行时间(改进前)}{总执行时间(改进后)}$
-加速比依赖于两个因素： 1.可改进比例 (Fe，Fraction of Execution time that is Enhanced):在改进前的系统中，可改进部分的执行时间在总的执行时间中所占的比例。 (总是小于等于1) 2.部件加速比(Se，Speedup Efficiency)：可改进部分改进以后性能提高的倍数。它是改进前所需的执行时间与改进后执行时间的比。
-改进后程序的总执行时间$T_n$
+加速比依赖于两个因素：
+可改进比例 (Fe，Fraction of Execution time that is Enhanced): 在改进前的系统中，可改进部分的执行时间在总的执行时间中所占的比例。 (总是小于等于1) 部件加速比(Se，Speedup Efficiency)：可改进部分改进以后性能提高的倍数。它是改进前所需的执行时间与改进后执行时间的比。 改进后程序的总执行时间$T_n$
 $T_n = T_0(1-Fe&#43;\frac{Fe}{Se})$
 系统加速比$S_n$(改进前后总执行时间之比)
 $S_n=\frac{T_0}{T_n}=\frac{1}{(1-Fe)&#43;\frac{Fe}{Se}} $
@@ -15,18 +15,18 @@ CPU时间#$CPU时间 = 执行程序所需的时间周期数 \times 时间周�
 $时间周期数是系统时钟频率的倒数$
 $CPI(每条指令执行的平均时钟周期数量) = 时间周期数 / IC(执行的指令条数)$
 $CPU时间 = IC(指令条数) \times CPI(指令平均时间周期数) \times 时间周期时间$
-CPU的性能取决于三个参数： 1.时间周期时间：取决于硬件实现技术和计算机组成 2.CPI(Cycles Per Instruction)：取决于计算机组成和指令系统的结构 3.IC(Instruction Count)：取决于指令系统的结构和编译技术
-$ CPU时间周期数 = \sum_{i=1}^n({CPI_i}{\times}{IC_i} ) $">
+CPU的性能取决于三个参数：
+时间周期时间：取决于硬件实现技术和计算机组成 CPI(Cycles Per Instruction)：取决于计算机组成和指令系统的结构 IC(Instruction Count)：取决于指令系统的结构和编译技术 $ CPU时间周期数 = \sum_{i=1}^n({CPI_i}{\times}{IC_i} ) $">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.org/docs/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/">
   <meta property="og:site_name" content="HakureiR-eimu&#39;s Blog">
   <meta property="og:title" content="系统结构">
-  <meta property="og:description" content="寄寄寄#第一章#Amadhl定律#加快某部件执行速度所能获得的系统性能加速比，受限于该部件的执行时间占系统中总执行时间 的百分比。
+  <meta property="og:description" content="第一章#Amadhl定律#加快某部件执行速度所能获得的系统性能加速比，受限于该部件的执行时间占系统中总执行时间 的百分比。
 系统加速比：
 $ T(加速比) = \frac{系统性能(改进后) }{ 系统性能(改进前) } = \frac{总执行时间(改进前)}{总执行时间(改进后)}$
-加速比依赖于两个因素： 1.可改进比例 (Fe，Fraction of Execution time that is Enhanced):在改进前的系统中，可改进部分的执行时间在总的执行时间中所占的比例。 (总是小于等于1) 2.部件加速比(Se，Speedup Efficiency)：可改进部分改进以后性能提高的倍数。它是改进前所需的执行时间与改进后执行时间的比。
-改进后程序的总执行时间$T_n$
+加速比依赖于两个因素：
+可改进比例 (Fe，Fraction of Execution time that is Enhanced): 在改进前的系统中，可改进部分的执行时间在总的执行时间中所占的比例。 (总是小于等于1) 部件加速比(Se，Speedup Efficiency)：可改进部分改进以后性能提高的倍数。它是改进前所需的执行时间与改进后执行时间的比。 改进后程序的总执行时间$T_n$
 $T_n = T_0(1-Fe&#43;\frac{Fe}{Se})$
 系统加速比$S_n$(改进前后总执行时间之比)
 $S_n=\frac{T_0}{T_n}=\frac{1}{(1-Fe)&#43;\frac{Fe}{Se}} $
@@ -34,8 +34,8 @@ CPU时间#$CPU时间 = 执行程序所需的时间周期数 \times 时间周�
 $时间周期数是系统时钟频率的倒数$
 $CPI(每条指令执行的平均时钟周期数量) = 时间周期数 / IC(执行的指令条数)$
 $CPU时间 = IC(指令条数) \times CPI(指令平均时间周期数) \times 时间周期时间$
-CPU的性能取决于三个参数： 1.时间周期时间：取决于硬件实现技术和计算机组成 2.CPI(Cycles Per Instruction)：取决于计算机组成和指令系统的结构 3.IC(Instruction Count)：取决于指令系统的结构和编译技术
-$ CPU时间周期数 = \sum_{i=1}^n({CPI_i}{\times}{IC_i} ) $">
+CPU的性能取决于三个参数：
+时间周期时间：取决于硬件实现技术和计算机组成 CPI(Cycles Per Instruction)：取决于计算机组成和指令系统的结构 IC(Instruction Count)：取决于指令系统的结构和编译技术 $ CPU时间周期数 = \sum_{i=1}^n({CPI_i}{\times}{IC_i} ) $">
   <meta property="og:locale" content="zh-CN">
   <meta property="og:type" content="website">
 <title>系统结构 | HakureiR-eimu&#39;s Blog</title>
@@ -44,7 +44,7 @@ $ CPU时间周期数 = \sum_{i=1}^n({CPI_i}{\times}{IC_i} ) $">
 <link rel="canonical" href="https://example.org/docs/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.1bda43cc389221fb821c352421f85035df57b0cb29bfc111637ad6e60a5beba7.js" integrity="sha256-G9pDzDiSIfuCHDUkIfhQNd9XsMspv8ERY3rW5gpb66c=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.4b398095b374d9b9339fd5e5f944223a08f5b504ab65e71e1a0d655e58552fca.js" integrity="sha256-SzmAlbN02bkzn9Xl&#43;UQiOgj1tQSrZeceGg1lXlhVL8o=" crossorigin="anonymous"></script>
 
   
 
@@ -405,11 +405,16 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#寄寄寄">寄寄寄</a>
+    <li><a href="#第一章">第一章</a>
       <ul>
-        <li><a href="#第一章">第一章</a></li>
+        <li><a href="#amadhl定律">Amadhl定律</a></li>
         <li><a href="#cpu时间">CPU时间</a></li>
         <li><a href="#mips">MIPS</a></li>
+      </ul>
+    </li>
+    <li><a href="#第三章">第三章</a>
+      <ul>
+        <li><a href="#单功能非线性流水线调度">单功能非线性流水线调度</a></li>
       </ul>
     </li>
   </ul>
@@ -424,26 +429,24 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h2 id="寄寄寄">
-  寄寄寄
-  <a class="anchor" href="#%e5%af%84%e5%af%84%e5%af%84">#</a>
-</h2>
-<h3 id="第一章">
+  <article class="markdown book-article"><h2 id="第一章">
   第一章
   <a class="anchor" href="#%e7%ac%ac%e4%b8%80%e7%ab%a0">#</a>
-</h3>
-<h4 id="amadhl定律">
+</h2>
+<h3 id="amadhl定律">
   Amadhl定律
   <a class="anchor" href="#amadhl%e5%ae%9a%e5%be%8b">#</a>
-</h4>
+</h3>
 <p>加快某部件执行速度所能获得的系统性能加速比，受限于该部件的执行时间占系统中总执行时间
 的百分比。</p>
 <p>系统加速比：</p>
 <p>$ T(加速比) = \frac{系统性能(改进后) }{ 系统性能(改进前) } = \frac{总执行时间(改进前)}{总执行时间(改进后)}$</p>
-<p>加速比依赖于两个因素：
-1.可改进比例 (Fe，Fraction of Execution time that is Enhanced):在改进前的系统中，可改进部分的执行时间在总的执行时间中所占的比例。
-(总是小于等于1)
-2.部件加速比(Se，Speedup Efficiency)：可改进部分改进以后性能提高的倍数。它是改进前所需的执行时间与改进后执行时间的比。</p>
+<p>加速比依赖于两个因素：</p>
+<ol>
+<li>可改进比例 (Fe，Fraction of Execution time that is Enhanced): 在改进前的系统中，可改进部分的执行时间在总的执行时间中所占的比例。
+(总是小于等于1)</li>
+<li>部件加速比(Se，Speedup Efficiency)：可改进部分改进以后性能提高的倍数。它是改进前所需的执行时间与改进后执行时间的比。</li>
+</ol>
 <p>改进后程序的总执行时间$T_n$</p>
 <p>$T_n = T_0(1-Fe+\frac{Fe}{Se})$</p>
 <p>系统加速比$S_n$(改进前后总执行时间之比)</p>
@@ -457,10 +460,12 @@ https://github.com/alex-shpak/hugo-book
 <p>$时间周期数是系统时钟频率的倒数$</p>
 <p>$CPI(每条指令执行的平均时钟周期数量) =  时间周期数 / IC(执行的指令条数)$</p>
 <p>$CPU时间 = IC(指令条数) \times CPI(指令平均时间周期数) \times 时间周期时间$</p>
-<p>CPU的性能取决于三个参数：
-1.时间周期时间：取决于硬件实现技术和计算机组成
-2.CPI(Cycles Per Instruction)：取决于计算机组成和指令系统的结构
-3.IC(Instruction Count)：取决于指令系统的结构和编译技术</p>
+<p>CPU的性能取决于三个参数：</p>
+<ol>
+<li>时间周期时间：取决于硬件实现技术和计算机组成</li>
+<li>CPI(Cycles Per Instruction)：取决于计算机组成和指令系统的结构</li>
+<li>IC(Instruction Count)：取决于指令系统的结构和编译技术</li>
+</ol>
 <p>$ CPU时间周期数 = \sum_{i=1}^n({CPI_i}{\times}{IC_i} ) $</p>
 <p>$ CPU时间 = 执行程序所需时钟周期数 \times 时钟周期时间 = \sum_{i=1}^n({CPI_i} {\times}{IC_i}) \times 时间周期时间 $
 $ CPI = \frac{时钟周期数}{IC} = CPI * \sum_{i=1}^n({\frac{IC_i}{IC}}) $</p>
@@ -469,6 +474,21 @@ $ CPI = \frac{时钟周期数}{IC} = CPI * \sum_{i=1}^n({\frac{IC_i}{IC}}) $</p>
   <a class="anchor" href="#mips">#</a>
 </h3>
 <p>每秒百万指令数</p>
+<h2 id="第三章">
+  第三章
+  <a class="anchor" href="#%e7%ac%ac%e4%b8%89%e7%ab%a0">#</a>
+</h2>
+<h3 id="单功能非线性流水线调度">
+  单功能非线性流水线调度
+  <a class="anchor" href="#%e5%8d%95%e5%8a%9f%e8%83%bd%e9%9d%9e%e7%ba%bf%e6%80%a7%e6%b5%81%e6%b0%b4%e7%ba%bf%e8%b0%83%e5%ba%a6">#</a>
+</h3>
+<ol>
+<li>IF：Instruction Fetch取指</li>
+<li>ID：Instruction Decode解码</li>
+<li>EX：Excute 执行</li>
+<li>MEM：Memory Access 访存</li>
+<li>WB：Write Back 写回</li>
+</ol>
 </article>
  
       
@@ -510,11 +530,16 @@ $ CPI = \frac{时钟周期数}{IC} = CPI * \sum_{i=1}^n({\frac{IC_i}{IC}}) $</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#寄寄寄">寄寄寄</a>
+    <li><a href="#第一章">第一章</a>
       <ul>
-        <li><a href="#第一章">第一章</a></li>
+        <li><a href="#amadhl定律">Amadhl定律</a></li>
         <li><a href="#cpu时间">CPU时间</a></li>
         <li><a href="#mips">MIPS</a></li>
+      </ul>
+    </li>
+    <li><a href="#第三章">第三章</a>
+      <ul>
+        <li><a href="#单功能非线性流水线调度">单功能非线性流水线调度</a></li>
       </ul>
     </li>
   </ul>
