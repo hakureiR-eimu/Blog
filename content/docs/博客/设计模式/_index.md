@@ -1,6 +1,5 @@
-﻿---
-draft : true
-title: "2024 05 16"
+---
+title: "设计模式"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
